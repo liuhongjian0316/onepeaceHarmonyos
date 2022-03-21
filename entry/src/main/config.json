@@ -1,0 +1,75 @@
+{
+  "app": {
+    "bundleName": "work.aijiu.onepeace",
+    "vendor": "aijiu",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "work.aijiu.onepeace",
+    "name": ".MyApplication",
+    "mainAbility": "work.aijiu.onepeace.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "work.aijiu.onepeace.MainAbility",
+        "icon": "$media:logo",
+        "description": "$string:title",
+        "label": "$string:title",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.NoTitleBar"
+            }
+          ]
+        }
+      },
+      {
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "work.aijiu.onepeace.WelcomeAbility",
+        "label": "$string:title",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.NoTitleBar"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"agcgw_all":{
+		"CN":"connect-drcn.dbankcloud.cn",
+		"CN_back":"connect-drcn.hispace.hicloud.com",
+		"DE":"connect-dre.dbankcloud.cn",
+		"DE_back":"connect-dre.hispace.hicloud.com",
+		"RU":"connect-drru.hispace.dbankcloud.ru",
+		"RU_back":"connect-drru.hispace.dbankcloud.ru",
+		"SG":"connect-dra.dbankcloud.cn",
+		"SG_back":"connect-dra.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"2850086000365800485",
+		"product_id":"99536292102098312",
+		"client_id":"852242503976371520",
+		"client_secret":"[!0002BA714BD8B99F7625F46228DA33061C2EF51C66CFF2273280C21B115F8D2D8E09C2AEF240689CF8714F3E09C4BCDE31B7E84D954A3D46B5D8EA006BB0495DC59660CC9EDB9144D6EF2107ABC0214BD8106E413631EA335F2A3E6C6517116D37]",
+		"project_id":"99536292102098312",
+		"app_id":"105790947",
+		"api_key":"[!00DCBC0FC72DDF47B616A47C83BE00666693C4A68DE55E617CF6FCFEC81C858D0229038DEF3D55C9E280C071C00A90E5E7C3A6C8D15AF50D2EC841EF6FAF18E697864FBDAA09380B3E442408B2763777FDB6564111B2C651E9CBA37C42D818592864EFABD5F534398D40071E8B721F9F5A767A7D0C45BCB3999A9AA77C334CC6E3]",
+		"package_name":"work.aijiu.onepeace"
+	},
+	"oauth_client":{
+		"client_id":"105790947",
+		"client_type":30
+	},
+	"app_info":{
+		"app_id":"852243003215981312",
+		"package_name":"work.aijiu.onepeace"
+	},
+	"code":{
+		"code1":"D57FD01FEA8E5AA77EA2123C2CE781DC",
+		"code2":"157A126FF11149919BB417128F37AAD9",
+		"code3":"31674A07AAC7F69035C14B1C1238CF10",
+		"code4":"8D3E7A108DB53E900DE1DD982661BDD9"
+	},
+	"configuration_version":"3.0"
+}
