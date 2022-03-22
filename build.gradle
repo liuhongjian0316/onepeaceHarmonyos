@@ -5,13 +5,13 @@ apply plugin: 'com.huawei.ohos.app'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('C:\\Users\\aijiu\\.ohos\\config\\auto_debug_onepeace_2850086000365800485.p12')
-            storePassword '000000187A0DF0862A5EF1C7743152C07BE213B6E018168A8BE01BF02DE31E8EBDA63CA7FADBEEBB'
+            storeFile file('C:\\Users\\Tiger\\.ohos\\config\\auto_debug_onepeace_2850086000365800485.p12')
+            storePassword '00000018FE54EB6F8132D643CE844A23B3B6D78837C51B29FA784FF2ADBEC38311579C4A3FCAEEA2'
             keyAlias = 'debugKey'
-            keyPassword '00000018CBD08B19C2D3B913C33BF8007F0A517EE2E56582E54EC25E4A0E97C99F8FD0B0D130EC95'
+            keyPassword '0000001800887647DD61548BE05944AEAE44E6D5F71D6BB3180D2BCB341B33E3B95D9F72A2C5156C'
             signAlg = 'SHA256withECDSA'
-            profile file('C:\\Users\\aijiu\\.ohos\\config\\auto_debug_onepeace_2850086000365800485.p7b')
-            certpath file('C:\\Users\\aijiu\\.ohos\\config\\auto_debug_onepeace_2850086000365800485.cer')
+            profile file('C:\\Users\\Tiger\\.ohos\\config\\auto_debug_onepeace_2850086000365800485.p7b')
+            certpath file('C:\\Users\\Tiger\\.ohos\\config\\auto_debug_onepeace_2850086000365800485.cer')
         }
     }
     compileSdkVersion 7

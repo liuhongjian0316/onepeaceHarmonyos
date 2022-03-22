@@ -1,9 +1,10 @@
-package work.aijiu.onepeace.components;
+package work.aijiu.onepeace.components.gridview;
 
 import ohos.agp.components.AttrSet;
 import ohos.agp.components.Component;
 import ohos.agp.components.TableLayout;
 import ohos.app.Context;
+import work.aijiu.onepeace.components.gridview.provider.GridAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +34,7 @@ public class GridView extends TableLayout {
      * @param adapter             adapter
      * @param longClickedListener longClickedListener
      */
-    void setAdapter(GridAdapter adapter, LongClickedListener longClickedListener, ClickedListener clickedListener) {
+    public void setAdapter(GridAdapter adapter, LongClickedListener longClickedListener, ClickedListener clickedListener) {
         removeAllComponents();
         this.list = adapter.getComponentList();
         for (int i = 0; i < adapter.getComponentList().size(); i++) {

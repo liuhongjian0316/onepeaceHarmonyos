@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:root_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#D9D9D9">
+
+    <!--title-->
+    <DependentLayout
+        ohos:height="48vp"
+        ohos:width="match_parent"
+        ohos:background_element="#FF3991CB"
+        ohos:id="$+id:top_bar">
+        <DependentLayout
+            ohos:id="$+id:title_area_back_icon_hot_area"
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:center_in_parent="true"
+            ohos:vertical_center="true"
+            ohos:horizontal_center="true"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:id="$+id:title_area_home_icon"
+                ohos:align_parent_left="true"
+                ohos:height="24vp"
+                ohos:width="24vp"
+                ohos:scale_mode="stretch"
+                ohos:vertical_center="true"
+                ohos:left_margin="6vp"/>
+
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:id="$+id:title_text"
+                ohos:text_alignment="vertical_center"
+                ohos:vertical_center="true"
+                ohos:text_size="16fp"
+                ohos:center_in_parent="true"
+                ohos:text_color="#FFFFFF"
+                ohos:text="首页"
+                ohos:max_text_lines="1">
+            </Text>
+            <Image
+                ohos:id="$+id:title_area_menu"
+                ohos:height="20vp"
+                ohos:width="24vp"
+                ohos:scale_mode="stretch"
+                ohos:align_parent_right="true"
+                ohos:vertical_center="true"
+                ohos:right_margin="10vp"
+                ohos:background_element="$graphic:info_icon"/>
+        </DependentLayout>
+    </DependentLayout>
+
+
+    <work.aijiu.onepeace.components.gridview.GridView
+        ohos:id="$+id:grid_view_up"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="6vp"
+        ohos:column_count="3"
+        ohos:end_margin="6vp"
+        ohos:start_margin="6vp"
+        ohos:top_margin="54vp"
+        >
+    </work.aijiu.onepeace.components.gridview.GridView>
+
+
+
+</DependentLayout>

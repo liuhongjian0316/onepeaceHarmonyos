@@ -57,7 +57,23 @@
       {
         "orientation": "unspecified",
         "visible": true,
-        "name": "work.aijiu.onepeace.WelcomeAbility",
+        "name": "work.aijiu.onepeace.HomeAbility",
+        "label": "$string:title",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.NoTitleBar"
+            }
+          ]
+        }
+      },
+      {
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "work.aijiu.onepeace.ButtonDemoAbility",
         "label": "$string:title",
         "type": "page",
         "launchType": "standard",

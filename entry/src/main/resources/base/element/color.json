@@ -2,7 +2,11 @@
   "color": [
     {
       "name": "statusbar",
-      "value": "FF21A9A9"
+      "value": "#FF21A9A9"
+    },
+    {
+      "name": "statusbarhome",
+      "value": "#FF3991CB"
     }
   ]
 }

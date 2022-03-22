@@ -5,24 +5,38 @@
     ohos:width="match_parent"
     ohos:orientation="vertical"
     ohos:background_element="#FF21A9A9">
-
-
-    <Image
-        ohos:height="match_content"
-        ohos:width="match_content"
-        ohos:image_src="$media:logo"
-        ohos:center_in_parent="true"
-        />
     <Text
-        ohos:bottom_margin="20vp"
-        ohos:align_parent_bottom="true"
-        ohos:text_alignment="center"
         ohos:height="match_content"
         ohos:width="match_parent"
-        ohos:text="爱久组件库"
-        ohos:text_color="#FFFFFF"
-        ohos:text_size="14vp"
+        ohos:center_in_parent="true"
         ohos:text_font="sans-serif"
+        ohos:text_alignment="center"
+        ohos:text="为简洁而生"
+        ohos:text_size="20vp"
+        ohos:text_color="#FFFFFF"
+        ohos:text_weight="700"
         />
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:align_parent_bottom="true"
+        ohos:alignment="center|horizontal_center|vertical_center"
+        ohos:bottom_margin="20vp">
+        <Image
+            ohos:height="32vp"
+            ohos:width="32vp"
+            ohos:image_src="$media:logo"
+            ohos:scale_mode="zoom_center"
+            />
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="爱久组件库"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"
+            ohos:text_font="sans-serif"
+            />
+    </DirectionalLayout>
 
 </DependentLayout>
